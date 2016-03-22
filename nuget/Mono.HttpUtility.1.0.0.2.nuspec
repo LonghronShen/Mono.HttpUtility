@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Mono.HttpUtility</id>
+        <version>1.0.0.2</version>
+        <title>Mono.HttpUtility</title>
+        <authors>Harry Pierson</authors>
+        <owners>MONO development team</owners>
+        <licenseUrl>http://www.mono-project.com/License</licenseUrl>
+        <projectUrl>http://www.mono-project.com</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Standalone HttpUtility class</description>
+        <summary>This is the HttpUtility class from Mono, compiled as a standalone package to enable use of helper functions like ParseQueryString without requiring referencing all of System.Web. 
+
+The code is unchanged from the Mono version except for the namespace (Mono.Web instead of System.Web) to avoid name collision.</summary>
+        <releaseNotes>Profile 259 support.</releaseNotes>
+        <copyright>Copyright 2013</copyright>
+        <tags>mono httputility</tags>
+        <dependencies>
+            <group targetFramework=".NETPortable0.0-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10">
+                <dependency id="Portable.Text.Encoding" version="0.8.3.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Mono.HttpUtility\bin\Release\Mono.HttpUtility.dll" target="lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\Mono.HttpUtility.dll" />
+    </files>
+</package>
