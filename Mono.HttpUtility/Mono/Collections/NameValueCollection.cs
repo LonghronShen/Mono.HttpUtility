@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mono.HttpUtility.Mono.Collections
+namespace Mono.Collections
 {
 
     public class NameValueCollection
