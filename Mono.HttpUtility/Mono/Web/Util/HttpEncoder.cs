@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 
-using Encoding = Portable.Text.Encoding;
+//using Encoding = Portable.Text.Encoding;
 
 namespace Mono.Web.Util
 {

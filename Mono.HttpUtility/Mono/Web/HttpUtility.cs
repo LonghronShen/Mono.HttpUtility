@@ -1,12 +1,12 @@
-﻿using Mono.Collections;
-using Mono.Web.Util;
+﻿using Mono.Web.Util;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.IO;
 using System.Text;
 
-using Encoding = Portable.Text.Encoding;
+//using Encoding = Portable.Text.Encoding;
 
 namespace Mono.Web
 {
@@ -414,7 +414,7 @@ namespace Mono.Web
             }
             byte[] bytes = buf.ToArray();
             buf = null;
-            return e.GetString(bytes, 0, bytes?.Length ?? 0);
+            return e.GetString(bytes);
         }
 
         public static string UrlDecode(byte[] bytes, int offset, int count, Encoding e)

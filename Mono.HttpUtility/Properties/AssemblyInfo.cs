@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Mono.HttpUtility")]
 [assembly: AssemblyDescription("Mono.HttpUtility")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("MONO development team")]
+[assembly: AssemblyCompany("MONO development team & Sino")]
 [assembly: AssemblyProduct("MONO CLI")]
 [assembly: AssemblyCopyright("(c) 2003 Various Authors")]
 [assembly: AssemblyTrademark("")]
@@ -30,5 +30,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
